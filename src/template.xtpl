@@ -1,13 +1,4 @@
-'use strict';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import React, { Component } from 'react';
-
-{{{imports}}}
-
-{{{utils}}}
-
-{{{style}}}
-
-{{{classes}}}
-
-{{{exports}}}
+{{{result}}}
