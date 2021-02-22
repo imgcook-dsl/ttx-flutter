@@ -1,228 +1,379 @@
 import 'package:flutter/material.dart';
-class Page0 extends StatelessWidget {
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+class Block0 extends StatelessWidget {
 @override
 Widget build(BuildContext context) {
 return Container(
-child: Stack(
-children: <Widget>[Positioned(
-child: Block_(),
-width: 696.00.w,
-height: 117.00.w,
-top: 0.00.w,
-left: 18.00.w
-),
-Shape_()]
-),
-width: 750.00.w,
-height: 960.00.w
-);
-}
-}class Block* extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-return Container(
-width: 696.00.w,
-height: 117.00.w,
-child: Row(
-crossAxisAlignment: CrossAxisAlignment.center,
-mainAxisAlignment: MainAxisAlignment.spaceBetween,
-children: <Widget>[Container(
-height: 117.00.w,
-child: Row(
-crossAxisAlignment: CrossAxisAlignment.center,
-mainAxisAlignment: MainAxisAlignment.start,
-children: <Widget>[Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB1oXyBx4D1gK0jSZFyXXciOVXa-111-197.png'),
-fit: BoxFit.fill,
-width: 74.00.w,
-height: 117.00.w
-),
-Text('妈妈',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 79, 105, 159),
-fontSize: 34.00)
-)]
-)
-),
-Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB1mBeAx.Y1gK0jSZFCXXcwqXXa-45-11.png'),
-fit: BoxFit.fill,
-width: 30.00.w,
-height: 7.00.w
-)]
-)
-);
-}
-}
-class Block* extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-return Container(
-height: 456.00.w,
-child: Column(
-crossAxisAlignment: CrossAxisAlignment.start,
-mainAxisAlignment: MainAxisAlignment.start,
-children: <Widget>[Row(
-crossAxisAlignment: CrossAxisAlignment.start,
-mainAxisAlignment: MainAxisAlignment.start,
-children: <Widget>[Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB1ieWzx5_1gK0jSZFqXXcpaXXa-222-223.png'),
-fit: BoxFit.fill,
-width: 222.00.w,
-height: 223.00.w
-),
-Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB172uzx7L0gK0jSZFxXXXWHVXa-222-224.png'),
-fit: BoxFit.fill,
-width: 222.00.w,
-height: 224.00.w
-),
-Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB1adixx7P2gK0jSZPxXXacQpXa-222-223.png'),
-fit: BoxFit.fill,
-width: 222.00.w,
-height: 223.00.w
-)]
-),
-Row(
-crossAxisAlignment: CrossAxisAlignment.start,
-mainAxisAlignment: MainAxisAlignment.start,
-children: <Widget>[Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB154msxWL7gK0jSZFBXXXZZpXa-222-223.png'),
-fit: BoxFit.fill,
-width: 222.00.w,
-height: 223.00.w
-),
-Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB1ZMmAx4D1gK0jSZFKXXcJrVXa-222-223.png'),
-fit: BoxFit.fill,
-width: 222.00.w,
-height: 223.00.w
-),
-Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB1Bu1zx7L0gK0jSZFxXXXWHVXa-222-223.png'),
-fit: BoxFit.fill,
-width: 222.00.w,
-height: 223.00.w
-)]
-)]
-)
-);
-}
-}
-class Block* extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-return Container(
-width: 686.00.w,
-height: 73.00.w,
-child: Row(
-crossAxisAlignment: CrossAxisAlignment.center,
-mainAxisAlignment: MainAxisAlignment.start,
-children: <Widget>[Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB1f7Kwx.T1gK0jSZFrXXcNCXXa-59-56.png'),
-fit: BoxFit.fill,
-width: 39.00.w,
-height: 37.00.w
-),
-Text('赞',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 43, 43, 53),
-fontSize: 28.00)
-),
-Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB10sywxVP7gK0jSZFjXXc5aXXa-54-54.png'),
-fit: BoxFit.fill,
-width: 36.00.w,
-height: 36.00.w
-),
-Text('评论',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 43, 43, 53),
-fontSize: 28.00)
-),
-Image(
-image: new NetworkImage('https://img.alicdn.com/tfs/TB1XIiwx.H1gK0jSZSyXXXtlpXa-48-54.png'),
-fit: BoxFit.fill,
-width: 32.00.w,
-height: 36.00.w
-),
-Text('分享',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 43, 43, 53),
-fontSize: 28.00)
-)]
-)
-);
-}
-}
-class Block* extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-return Container(
-height: 100.00.w,
-child: Column(
-crossAxisAlignment: CrossAxisAlignment.start,
-mainAxisAlignment: MainAxisAlignment.start,
-children: <Widget>[Text('爸爸点了赞',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 79, 105, 159),
-fontSize: 30.00)
-),
-Row(
-crossAxisAlignment: CrossAxisAlignment.start,
-mainAxisAlignment: MainAxisAlignment.start,
-children: <Widget>[Text('奶奶',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 79, 105, 159),
-fontSize: 30.00)
-),
-Text(':',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 79, 105, 159),
-fontSize: 30.00)
-),
-Text('一下子就是大姑娘了',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 43, 43, 53),
-fontSize: 30.00)
-)]
-)]
-)
-);
-}
-}
-class Shape* extends StatelessWidget {
-@override
-Widget build(BuildContext context) {
-return Container(
-width: 750.00.w,
-height: 960.00.w,
+child: Container(
+height: 1208.00.w,
 child: Column(
 crossAxisAlignment: CrossAxisAlignment.start,
 mainAxisAlignment: MainAxisAlignment.start,
 children: <Widget>[Stack(
-children: <Widget>[Container(
-child: Text('今年元旦节，全家人一起去了迪士尼乐园，天气也好到爆炸，大宝开心的跳起来了',
-textAlign: TextAlign.left,
-style: TextStyle(color: Color.fromARGB(255, 43, 43, 53),
-fontSize: 34.00)
+children: <Widget>[Positioned(
+child: Container(
+width: 184.00.w,
+height: 21.00.w,
+decoration: BoxDecoration(color: Color.fromARGB(255, 216, 216, 216))
 ),
-width: 749.00.w,
-height: 96.00.w
+top: 20.00.w,
+right: 91.00.w,
+width: 184.00.w,
+height: 21.00.w
+),
+Container(
+child: Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/48cb1110605011eba1a9d96f1e538c39.png'),
+fit: BoxFit.fill,
+width: 375.00.w,
+height: 224.00.w
+)]
+)
 )]
 ),
-Container(
-child: Block*(),
-width: 749.00.w
+Stack(
+children: <Widget>[Container(
+child: Stack(
+children: <Widget>[Container(
+width: 319.00.w,
+height: 161.00.w,
+child: Row(
+crossAxisAlignment: CrossAxisAlignment.start,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/492fc650605011ebab6947b2ec61a6d2.png'),
+fit: BoxFit.fill,
+width: 52.00.w,
+height: 48.00.w
+)]
 ),
-Container(
-child: Block*(),
-width: 749.00.w
+Stack(
+children: <Widget>[Text('限时特惠',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+fontSize: 15.00)
+)]
+)]
 ),
-Block*()]
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/496db9b0605011eb8b907f6422b6be78.png'),
+fit: BoxFit.fill,
+width: 52.00.w,
+height: 48.00.w
+)]
 ),
+Stack(
+children: <Widget>[Text('限时特惠',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+fontSize: 15.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/49b54a00605011ebbe9addbbb0d5c25a.png'),
+fit: BoxFit.fill,
+width: 52.00.w,
+height: 48.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('限时特惠',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+fontSize: 15.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/49fe8800605011eb9c6975ac1f19cdb8.png'),
+fit: BoxFit.fill,
+width: 52.00.w,
+height: 48.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('限时特惠',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+fontSize: 15.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4a3fd6c0605011eba99b3b55c414d756.png'),
+fit: BoxFit.fill,
+width: 52.00.w,
+height: 48.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('限时特惠',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+fontSize: 15.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4a7f9ee0605011ebab42cd2e7db96b57.png'),
+fit: BoxFit.fill,
+width: 52.00.w,
+height: 48.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('限时特惠',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+fontSize: 15.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4ac97920605011eb834a05d6c66e2abf.png'),
+fit: BoxFit.fill,
+width: 52.00.w,
+height: 48.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('限时特惠',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+fontSize: 15.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4b0d11d0605011eba1a9d96f1e538c39.png'),
+fit: BoxFit.fill,
+width: 52.00.w,
+height: 48.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('限时特惠',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 0, 0, 0),
+fontSize: 15.00)
+)]
+)]
+)]
+)
+)]
+),
+width: 350.00.w,
+height: 176.00.w,
 decoration: BoxDecoration(color: Color.fromARGB(255, 255, 255, 255))
+)]
+),
+Stack(
+children: <Widget>[Positioned(
+child: Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4b322600605011eb97253d2831bd72fd.png'),
+fit: BoxFit.fill,
+width: 371.00.w,
+height: 41.00.w
+),
+top: 0.00.w,
+left: 0.00.w,
+width: 371.00.w,
+height: 41.00.w
+),
+Container(
+child: Stack(
+children: <Widget>[Text('旅游活动',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 56, 165, 223),
+fontSize: 20.00)
+)]
+),
+width: 371.00.w,
+height: 41.00.w
+)]
+),
+Stack(
+children: <Widget>[Container(
+child: Stack(
+children: <Widget>[Container(
+width: 349.00.w,
+height: 264.00.w,
+child: Row(
+crossAxisAlignment: CrossAxisAlignment.start,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4cec3210605011eb8469f75a5095b1e3.png'),
+fit: BoxFit.fill,
+width: 170.00.w,
+height: 113.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('首发山日游',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 49, 160, 221),
+fontSize: 12.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4c40d6e0605011ebb896e979b8339949.png'),
+fit: BoxFit.fill,
+width: 170.00.w,
+height: 113.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('首发山日游',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 49, 160, 221),
+fontSize: 12.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4f46eaf0605011ebb108adfbb2b392e8.png'),
+fit: BoxFit.fill,
+width: 170.00.w,
+height: 113.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('首发山日游',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 49, 160, 221),
+fontSize: 12.00)
+)]
+)]
+),
+Column(
+crossAxisAlignment: CrossAxisAlignment.center,
+mainAxisAlignment: MainAxisAlignment.start,
+children: <Widget>[Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4dd7a380605011eb9c6975ac1f19cdb8.png'),
+fit: BoxFit.fill,
+width: 170.00.w,
+height: 113.00.w
+)]
+),
+Stack(
+children: <Widget>[Text('首发山日游',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 49, 160, 221),
+fontSize: 12.00)
+)]
+)]
+)]
+)
+)]
+),
+width: 375.00.w,
+height: 279.00.w,
+decoration: BoxDecoration(color: Color.fromARGB(255, 255, 255, 255))
+)]
+),
+Stack(
+children: <Widget>[Positioned(
+child: Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/4f7acc30605011ebab42cd2e7db96b57.png'),
+fit: BoxFit.fill,
+width: 371.00.w,
+height: 41.00.w
+),
+top: 0.00.w,
+left: 0.00.w,
+width: 371.00.w,
+height: 41.00.w
+),
+Container(
+child: Stack(
+children: <Widget>[Text('景区活动',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 56, 165, 223),
+fontSize: 20.00)
+)]
+),
+width: 371.00.w,
+height: 41.00.w
+)]
+),
+Stack(
+children: <Widget>[Positioned(
+child: Container(
+child: Text('云南 5 天 4 晚',
+textAlign: TextAlign.left,
+style: TextStyle(color: Color.fromARGB(255, 255, 255, 255),
+fontSize: 30.00)
+),
+height: 63.00.w,
+decoration: BoxDecoration(color: Color.fromARGB(255, 255, 255, 255))
+),
+top: 108.00.w,
+right: 66.00.w,
+height: 63.00.w
+),
+Container(
+child: Stack(
+children: <Widget>[Image(
+image: new NetworkImage('https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/546e0a40605011eb834a05d6c66e2abf.png'),
+fit: BoxFit.fill,
+width: 371.00.w,
+height: 263.00.w
+)]
+)
+)]
+)]
+)
+),
+width: 375.00.w,
+height: 1208.00.w
 );
 }
 }

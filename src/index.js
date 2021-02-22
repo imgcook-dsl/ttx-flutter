@@ -595,6 +595,7 @@ module.exports = function(schema, option) {
       {
         panelName: `index.dart`,
         panelValue: prettier.format(`import 'package:flutter/material.dart';
+        import 'package:flutter_screenutil/flutter_screenutil.dart';
           ${result}`, prettierOpt),
         panelType: 'javascript',
       }
