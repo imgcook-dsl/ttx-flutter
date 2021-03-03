@@ -61,7 +61,7 @@ const hashToRgb = hash => {
 };
 
 const transformUnit = unit => {
-  return (parseInt(unit)).toFixed(2);
+  return (parseInt(unit)*2).toFixed(2);
 };
 
 module.exports = function(schema, option) {
